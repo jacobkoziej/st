@@ -1,0 +1,5 @@
+*.diff
+*.o
+*.rej
+config.def.h
+st
