@@ -1,6 +1,19 @@
 [![st logo](st.png)](https://st.suckless.org/)
-# Koziej's Fork of st
-*rtfm* doesn't really apply here... the source code is the documentation!
+# Koziej's custom build of st - the simple (suckless) terminal
+> *rtfm* doesn't really apply here... the source code is the documentation!
+
+## Unique Features
+* Transparency *(disabled for current color scheme)*
+* [Nord](https://www.nordtheme.com/) Theme
+* Hidden Cursor when keyboard input is detected
+* Dynamic internal padding so characters have even gaps when the window is resized
+
+## Installation
+```bash
+git clone https://github.com/jacobkoziej/st.git
+cd st
+sudo make install
+```
 
 ## Applied Patches
 | Patch | Version |
