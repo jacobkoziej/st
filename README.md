@@ -25,9 +25,13 @@ As a result, if users would like extended functionality they must **manually** p
 | [hidecursor](https://st.suckless.org/patches/hidecursor/) | [0.8.1](https://st.suckless.org/patches/hidecursor/st-hidecursor-0.8.1.diff) |
 | [no bold colors](https://st.suckless.org/patches/solarized/) | [20170623-b331da5](https://st.suckless.org/patches/solarized/st-no_bold_colors-20170623-b331da5.diff) |
 
-## Installation
-```bash
+## Installation & Use
+To install st clone the repository and run `make`.
+```sh
 git clone https://github.com/jacobkoziej/st.git
 cd st
 sudo make install
 ```
+To start st execute `st`.
+
+For detailed information regarding st read the man page by running `man st` or visit [st's website](https://st.suckless.org).
