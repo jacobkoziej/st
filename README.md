@@ -4,6 +4,13 @@
 
 ![Example of st running on my system](sample.png)
 
+## Overview
+st is considered by many the best terminal emulator available.
+It is actively developed and maintained by the [suckless](suckless.org) development team.
+The main motivation behind st was to create a terminal emulator that is not bloated.
+The suckless developers follow a strict philosophy of maintaining software that focuses on simplicity and clarity which often means features that most come to expect from a terminal emulator are not included.
+As a result, if users would like extended functionality they must **manually** patch the source code and compile the program, which leads to the motivation behind my fork of st.
+
 ## Unique Features
 * Transparency *(disabled for current color scheme)*
 * [Nord](https://www.nordtheme.com/) Theme
