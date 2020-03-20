@@ -11,11 +11,19 @@ The main motivation behind st was to create a terminal emulator that is not bloa
 The suckless developers follow a strict philosophy of maintaining software that focuses on simplicity and clarity which often means features that most come to expect from a terminal emulator are not included.
 As a result, if users would like extended functionality they must **manually** patch the source code and compile the program, which leads to the motivation behind my fork of st.
 
-## Unique Features
-* Transparency *(disabled for current color scheme)*
+## Extra Features
+* Transparency *(disabled for the current color scheme)*
 * [Nord](https://www.nordtheme.com/) Theme
 * Hidden Cursor when keyboard input is detected
 * Dynamic internal padding so characters have even gaps when the window is resized
+
+### Applied Patches
+| Patch | Version |
+| :-- | --: |
+| [alpha](https://st.suckless.org/patches/alpha/) | [0.8.2](https://st.suckless.org/patches/alpha/st-alpha-0.8.2.diff) | 
+| [anysize](https://st.suckless.org/patches/anysize/) | [0.8.1](https://st.suckless.org/patches/anysize/st-anysize-0.8.1.diff) |
+| [hidecursor](https://st.suckless.org/patches/hidecursor/) | [0.8.1](https://st.suckless.org/patches/hidecursor/st-hidecursor-0.8.1.diff) |
+| [no bold colors](https://st.suckless.org/patches/solarized/) | [20170623-b331da5](https://st.suckless.org/patches/solarized/st-no_bold_colors-20170623-b331da5.diff) |
 
 ## Installation
 ```bash
@@ -23,11 +31,3 @@ git clone https://github.com/jacobkoziej/st.git
 cd st
 sudo make install
 ```
-
-## Applied Patches
-| Patch | Version |
-| :-- | --: |
-| [alpha](https://st.suckless.org/patches/alpha/) | [0.8.2](https://st.suckless.org/patches/alpha/st-alpha-0.8.2.diff) | 
-| [anysize](https://st.suckless.org/patches/anysize/) | [0.8.1](https://st.suckless.org/patches/anysize/st-anysize-0.8.1.diff) |
-| [hidecursor](https://st.suckless.org/patches/hidecursor/) | [0.8.1](https://st.suckless.org/patches/hidecursor/st-hidecursor-0.8.1.diff) |
-| [no bold colors](https://st.suckless.org/patches/solarized/) | [20170623-b331da5](https://st.suckless.org/patches/solarized/st-no_bold_colors-20170623-b331da5.diff) |
