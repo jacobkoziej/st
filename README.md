@@ -2,6 +2,8 @@
 # Koziej's custom build of st - the simple (suckless) terminal
 > *rtfm* doesn't really apply here... the source code is the documentation!
 
+![Example of st running on my system](sample.png)
+
 ## Unique Features
 * Transparency *(disabled for current color scheme)*
 * [Nord](https://www.nordtheme.com/) Theme
